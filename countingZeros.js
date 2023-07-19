@@ -8,7 +8,7 @@ function zerosInNumber(number){
       result = word.replace(/[^0]/g, "").length;
      //console.log(result);
     } else {
-        console.log ('The number you provided does not contain any zeros in it. Try something else :)');
+        console.log ('\nThe number you provided does not contain any zeros in it. Try something else :)\n');
     }
     return result;
  }
